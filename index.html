@@ -9,10 +9,6 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Noto+Sans+JP:wght@900&family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
         <!-- ここまで -->
-        <!-- 旧フォントここから -->
-        <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> -->
-        <!-- <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap" rel="stylesheet"> -->
-        <!-- 旧フォントここまで -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
@@ -37,10 +33,10 @@
                     <a class="nav-link" href="#location">日時・場所</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#schedule">スケジュール</a>
+                    <a class="nav-link" href="#accept">受付方法</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#accept">受付方法</a>
+                    <a class="nav-link" href="#schedule">スケジュール</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#event">個別イベント</a>
@@ -106,8 +102,7 @@
               <h3>日時・場所</h3>
               <hr>
               <div class="mx-2">
-                <p>日時　2023年9月30日(土)　10:30〜<br>
-                  　　　（受付は9:00〜）<br>
+                <p>日時　2023年9月30日(土)　10:30〜（受付は9:00〜）<br>
                   　　　※小雨決行
                 </p>
                 <p>場所　神奈川県藤沢市片瀬西浜3丁目26-15 <br>
@@ -177,7 +172,10 @@
               <h3>スケジュール</h3>
               <hr>
               <div class="mx-2">
-                <p>開催日時：2023年9月30日(土)　※少雨決行</p>
+                <p>
+                  開催日時：2023年9月30日(土)　※少雨決行<br>
+                  地引網の開始タイミングによってスケジュールは前後しますのでご了承ください。
+                </p>
                 <div class="accordion" id="timeschedule">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
@@ -205,15 +203,20 @@
                               </tr>
                               <tr>
                                 <td>10:30</td>
-                                <td class="bg_jibiki"><span class="menubg">地引網スタート</span></td>
+                                <td class="bg_jibiki"><span class="menubg">地引網スタート<br>
+                                網元の都合で時間は前後する場合があります。</span></td>
                               </tr>
                               <tr>
                                 <td>11:20</td>
-                                <td class="bg_suica"><span class="menubg">スイカ割り</span></td>
+                                <td class="bg_sandal"><span class="menubg">ビーチサンダル飛ばし</span></td>
+                              </tr>
+                              <tr>
+                                <td>イベント間</td>
+                                <td><span class="menubg">全体集合 写真撮影</span></td>
                               </tr>
                               <tr>
                                 <td>11:50</td>
-                                <td class="bg_sandal"><span class="menubg">ビーチサンダル飛ばし</span></td>
+                                <td class="bg_suica"><span class="menubg">スイカ割り</span></td>
                               </tr>
                               <tr>
                                 <td>12:50</td>
@@ -236,6 +239,16 @@
                 </div>
               </div>
 
+              <div id="event" class="section px-1">
+                <h3>個別イベント</h3>
+                <hr>
+                <div class="px-2">
+                  <h6>ビーチサンダル飛ばし</h6>
+                  <p class="ps-4 mb-4">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                  <h6>スイカ割り</h6>
+                  <p class="ps-4">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                </div>
+              </div>
             
               <div id="item" class="section px-1">
                 <h3>持ち物</h3>
@@ -244,15 +257,22 @@
                   <ul class="list-group">
                     <li class="list-group-item">
                       <input class="form-check-input me-1" type="checkbox">
-                      タンブラー
+                      タンブラー（SDGsの観点で可能な方はお持ちください）
                     </li>
                     <li class="list-group-item">
                       <input class="form-check-input me-1" type="checkbox">
-                      帽子（あると良い！）
+                      軍手・手袋（地引網の濡れたロープを触るのが苦手な方）
                     </li>
                     <li class="list-group-item">
                       <input class="form-check-input me-1" type="checkbox">
-                      クーラーボックス（魚を持って帰りたい人）
+                      クーラーボックス（魚を持ち帰りたい方）
+                    </li>
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox">
+                      ビーチサンダル（ビーチサンダル飛ばしに参加する方）
+                    </li><li class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox">
+                      日よけ対策（帽子・日焼け止めなど）
                     </li>
                   </ul>
                   <div class="alert alert-warning mt-1" role="alert">
@@ -262,18 +282,72 @@
               </div>
 
               <div id="attention" class="section px-1">
-                <h3>注意事項</h3>
+                <h3>各種注意事項</h3>
                 <hr>
                 <div class="mx-2">
-                  <p>サンダルは砂浜が熱いかも（９月の様子を見て）</p>
+                  <div class="px-2">
+                    <h6><i class="far fa-circle fa-sm"></i>当日の天候への備えについて</h6>
+                    <p class="ps-4 mb-4">
+                      雨天でのイベント実施も想定されます。テントを用意しておりますが、雨や気温変化（寒・暖）へのご準備をお願いいたします。
+                      <b><u>特に、熱中症対策（帽子やタオルの持参等）にはご注意ください。</u></b>
+                    </p>
+                    <h6><i class="far fa-circle fa-sm"></i>地引網スタッフについて</h6>
+                    <p class="ps-4 mb-4">
+                      当日、地引網スタッフはSLCロゴ入りのビブス（橙、緑）を着用していますので、何かあればお気軽にお声がけください。
+                    </p>
+                    <h6><i class="far fa-circle fa-sm"></i>イベント中の体調不良</h6>
+                    <p class="ps-4 mb-4">
+                      救護班がいますので、地引網スタッフまでお声がけください。
+                    </p>
+                    <h6><i class="far fa-circle fa-sm"></i>危険行為の禁止</h6>
+                    <p class="ps-4 mb-4">
+                      <b><u>海での遊泳、飛び込みは一切禁止です。</u></b><br>
+                      当日はアルコールも摂取されると思われますので、危険な行為は絶対にしないでください。<br>
+                      また、波が高いことも想定されます。<b><u>特にお子様が波打ち際に近づかないよう、保護者の方にてご注意ください。</u></b>
+                    </p>
+                    <h6><i class="far fa-circle fa-sm"></i>お手洗い</h6>
+                    <p class="ps-4 mb-4">
+                      会場近くにあります。場所は地引網スタッフにお尋ねください。
+                    </p>
+                    <h6><i class="far fa-circle fa-sm"></i>飲食物の持ち込み</h6>
+                    <p class="ps-4 mb-4">
+                      衛生管理上、食材・飲み物（アルコール類）の持込みは禁止です。
+                    </p>
+                    <h6><i class="far fa-circle fa-sm"></i>魚の持ち帰りについて</h6>
+                    <p class="ps-4 mb-4">
+                      持ち帰りを希望される方はビニール袋を用意しますが、必要に応じクーラーボックス等を持参ください。
+                    </p>
+                    <h6><i class="far fa-circle fa-sm"></i>ごみの分別について</h6>
+                    <p class="ps-4 mb-4">
+                      <b><u>「缶・ビン・ペットボトル」と「それ以外」に分別してください。</u></b>それぞれのゴミ袋を用意してあります。
+                    </p>
+                    <h6><i class="far fa-circle fa-sm"></i>荷物の管理</h6>
+                    <p class="ps-4 mb-4">
+                      貴重品の管理は各自でお願いいたします。
+                    </p>
+                </div>
+              </div>
+
+              <div id="cancel" class="section px-1">
+                <h3>中止時の連絡方法</h3>
+                <hr>
+                <div class="mx-2">
+                  <p>
+                    ・前日までに決行中止となった場合は、社内メールでご連絡します。
+                  </p>
+                  <p>
+                    ・前日までに決行予定の場合も、天候によって当日決行中止となる恐れがあります。<br>
+                    　当日結構連絡は、朝6時頃に当サイトの「当日の決行情報」に記載します。
+                  </p>
                 </div>
               </div>
 
               <div id="contact" class="section px-1">
-                <h3>当日の欠席連絡について</h3>
+                <h3>当日の連絡先</h3>
                 <hr>
                 <div class="mx-2">
-                  <p>連絡手段については、もう少し詳細決まり次第統括班に確認</p>
+                  <p>・当日欠席など想定外の連絡がある場合には、下記連絡先にメールでご連絡ください。</p>
+                  <a href="mailto:slc.jibiki.press@gmail.com" class="ps-4">slc.jibiki.press@gmail.com</a>
                 </div>
               </div>
 
@@ -300,7 +374,7 @@
                 <h3>近隣アミューズメントスポット</h3>
                 <hr>
                 <div class="mx-2">
-                  <h6>🐬🐬<a href="https://www.enosui.com/" target="blank">新江ノ島水族館<a></h6>
+                  <h6><i class="fas fa-solid fa-fish"></i><a href="https://www.enosui.com/" target="blank">新江ノ島水族館<a></h6>
                   <div class="mb-3">
                     地引網の場所から徒歩３分。地引網の帰りに気軽に寄れます。<br />
                     福利厚生サービス「リロクラブ」を利用するとお得です。<br />

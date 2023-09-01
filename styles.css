@@ -18,6 +18,10 @@ h3 {
     padding-left: 2px;
 }
 
+h6 {
+    font-weight: bold;
+}
+
 .menubg {
     background-color: white;
 }
@@ -95,6 +99,13 @@ h3 {
 
 .bg_suica {
     background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 50%),url(sch_suica.png);  /* 背景画像指定 */
+    background-size: cover;
+    background-repeat:  no-repeat;  /* 背景の繰り返し設定 */
+    background-position: right;    /* 背景の位置指定 */
+}
+
+.bg_picture {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 50%),url(sch_picture.png);  /* 背景画像指定 */
     background-size: cover;
     background-repeat:  no-repeat;  /* 背景の繰り返し設定 */
     background-position: right;    /* 背景の位置指定 */
