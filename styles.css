@@ -97,6 +97,13 @@ h6 {
     background-position: right;    /* 背景の位置指定 */
 }
 
+.bg_bbq {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 50%),url(sch_bbq.png);  /* 背景画像指定 */
+    background-size: cover;
+    background-repeat:  no-repeat;  /* 背景の繰り返し設定 */
+    background-position: right;    /* 背景の位置指定 */
+}
+
 .bg_suica {
     background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 50%),url(sch_suica.png);  /* 背景画像指定 */
     background-size: cover;
